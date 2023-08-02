@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ariel Ludwig</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/4967fe1eb6.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h1>Ariel Ludwig</h1>
+        <header class="navbar">
+            <nav class="primary-nav">
+                <a href="index.html">Home</a>
+                <a href="https://docs.google.com/document/d/1AmmT9H0i3acIll_o-jfeDmbISv6fm49S/edit"
+                    target="_blank">CV</a>
+                <a href="projects.html">Projects</a>
+                <a href="teaching.html">Teaching</a>
+                <a href="publications.html">Publications</a>
+                <a href="contact.html" class="current-link">Contact</a>
+            </nav>
+            <div class="hamburger-contents">
+                <div>
+                    <h1>Ariel Ludwig</h1>
+                </div>
+                <div class="hamburger">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                </div>
+            </div>
+
+            <nav class="mobileNav">
+                <a href="index.html">Home</a>
+                <a href="https://docs.google.com/document/d/1AmmT9H0i3acIll_o-jfeDmbISv6fm49S/edit"
+                    target="_blank">CV</a>
+                <a href="projects.html">Projects</a>
+                <a href="teaching.html">Teaching</a>
+                <a href="publications.html">Publications</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <div class="form">
+            <h3>Please complete the form below or send me an email at ariel.ludwig@gmail.com</h3>
+            <form class="contact-form" action="mailto:ariel.ludwig@gmail.com" method="post" enctype="text/plain">
+                <div class="content">
+                    <label for="fname">First Name:</label> <br> <input type="text" id="fname" name="firstName"
+                        placeholder="First Name" required><br>
+                    <label for="lname">Last Name:</label> <br> <input type="text" id="lname" name="lastName"
+                        placeholder="Last Name" required><br>
+
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="email" name="email" placeholder="email" required><br>
+                    <label for="subject">Subject:</label> <br>
+                    <input type="text" id="subject" name="subject" placeholder="subject" required><br>
+                    <label for="message">Message:</label> <br>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+        <footer class="footer">
+            <a href="contact.html"><i class="fa-regular fa-lg fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/ariel-ludwig-843548219/"><i
+                    class="fa-brands fa-lg fa-linkedin"></i></a>
+        </footer>
+
+    </div>
+
+    <script src="index.js" async defer></script>
+</body>
+
+</html>
